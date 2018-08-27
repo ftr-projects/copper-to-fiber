@@ -1,0 +1,44 @@
+.social-media {
+  padding: 70px 0;
+
+  .social-container {
+      height: 400px;
+      overflow-y: auto;
+  }
+
+  .social-icons-ftr {
+    a {
+      color: $white;
+    }
+    .smi {
+      width: 40px;
+      height: 40px;
+      @media only screen and (min-width: 768px) {
+        width: 60px;
+        height: 60px;
+      }
+
+      i, em {
+        color: $white;
+        font-size: 22px;
+        line-height: 26px;
+        @media only screen and (min-width: 768px) {
+          font-size: 26px;
+          line-height: 40px;
+          color: $white;
+        }
+      }
+
+      &.smi-youtube, &.smi-googleplus {
+        i, em {
+          font-size: 25px;
+          line-height: 32px;
+          @media only screen and (min-width: 768px) {
+            font-size: 29px;
+             line-height: 48px;
+          }
+        }
+      }
+    }
+  }
+}

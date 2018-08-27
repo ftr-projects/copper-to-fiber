@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50.24 12.4">
+  <defs>
+    <clipPath id="e049f80f-4ef2-41f8-b203-f7bead3adff7" transform="translate(0 0)">
+      <rect width="50.24" height="12.4" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>espn</title>
+  <g id="a2640f51-07f0-4400-998c-9c6bcdc7883b" data-name="Layer 2">
+    <g id="91fbfd7b-1523-4b06-aff1-9fa062f71a6d" data-name="Layer 1">
+      <g id="c79b3969-8d22-489d-808f-841b3ab2f852" data-name="Artwork 1">
+        <g clip-path="url(#e049f80f-4ef2-41f8-b203-f7bead3adff7)">
+          <g clip-path="url(#e049f80f-4ef2-41f8-b203-f7bead3adff7)">
+            <path d="M34.66,0H16.39c-1.87,0-3.11,1-3.29,2.46-.06.54-.13,1-.13,1H37.32l.08-.65C37.58,1.35,37,0,34.66,0" transform="translate(0 0)" fill="#f7323f"/>
+            <path d="M37.15,4.81s-.05.49-.13,1a2.16,2.16,0,0,1-2.41,1.85H29.43l-.59,4.71H24.72l.94-7.59Z" transform="translate(0 0)" fill="#f7323f"/>
+            <polygon points="1.54 0 12.58 0 12.15 3.48 1.11 3.48 1.54 0" fill="#f7323f"/>
+            <polygon points="0.94 4.81 11.98 4.81 11.62 7.68 4.71 7.68 4.54 9.11 11.45 9.11 11.04 12.4 0 12.4 0.94 4.81" fill="#f7323f"/>
+            <path d="M38.59,0h9C49,0,50.49.66,50.2,2.95l-.07.53h-12Z" transform="translate(0 0)" fill="#f7323f"/>
+            <polygon points="37.99 4.81 42.12 4.81 41.18 12.4 37.05 12.4 37.99 4.81" fill="#f7323f"/>
+            <polygon points="45.83 4.81 49.96 4.81 49.02 12.4 44.89 12.4 45.83 4.81" fill="#f7323f"/>
+            <path d="M21.88,4.81H12.81c-.31,2,.69,2.88,2.09,2.88h5.58l-.17,1.42h-8l-.41,3.29H21c.29,0,2.34-.08,3-1.75a19.68,19.68,0,0,0,.49-2.9c.33-2.37-1.32-2.94-2.61-2.94" transform="translate(0 0)" fill="#f7323f"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

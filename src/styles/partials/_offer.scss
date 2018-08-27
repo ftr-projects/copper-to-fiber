@@ -1,0 +1,32 @@
+.offer1 {
+  background-image: url("../images/offer-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  .offer-img {
+    display: none;
+  }
+  .offer-img-mobile {
+    display: block;
+    visibility: hidden;
+    width:100%;
+    height: auto;
+  }
+  @media only screen and (min-width: $screen-sm) {
+    background-image: url(../images/offer.jpg);
+
+    .offer-img {
+      display: block;
+      visibility: hidden;
+      width:100%;
+      height: auto;
+    }
+    .offer-img-mobile {
+      display: none;
+    }
+  }
+
+
+}

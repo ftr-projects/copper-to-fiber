@@ -1,0 +1,214 @@
+.navbar {
+  margin-bottom: 0px;
+}
+
+.home-wrapper {
+  .top-bar {
+      position: relative;
+      .cta-bar {
+          position: relative;
+          width: 100%;
+          z-index: 2;
+          box-shadow: 0px 1px 1px rgba(0,0,0,0.1)
+      }
+  }
+
+  .is-sticky {
+    .cta-bar {
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.3)
+    }
+
+  }
+
+  .top-bar-sticky-wrapper {
+    &.affix {
+      top: 0;
+      width: 100%;
+      z-index: 999999;
+    }
+
+    &.is-sticky, &.say-hello {
+      .top-bar {
+        .hello-bar {
+          top: 80px;
+          padding: 10px;
+
+          @media (min-width: 768px) {
+            padding:20px;
+          }
+
+        }
+      }
+    }
+  }
+
+  .cta-bar {
+      background: $white;
+
+      .desktop-only {
+          display: block;
+          padding: 7px 0;
+
+          @media (max-width: 767px) {
+            display:none !important;
+          }
+
+          .cta-bar-logo {
+              float: left;
+
+              img {
+                  margin-top: 10px;
+                  width: 125px;
+                  height: 38px;
+              }
+          }
+
+          .cta-bar-right {
+              float: right;
+
+              @media (max-width: 1105px) {
+                  margin-right: 10px;
+              }
+
+              .cta-bar-right-flex {
+                  display: -ms-flexbox;
+                  display: flex;
+                  height: 67px;
+                  -ms-flex-align: center;
+                  align-items: center;
+                  -ms-flex-pack: center;
+                  justify-content: center;
+              }
+
+              .flex-item-copy {
+                  font-size: 16px;
+                  line-height: 1.4em;
+
+                  @media (max-width: 1105px) {
+                    display: none;
+                  }
+              }
+
+              .flex-item-phone {
+                  white-space: nowrap;
+                  font-family: 'nexa xbold';
+                  font-size: 22px;
+                  margin-right: 20px;
+                  margin-top: 4px;
+
+                  .fa-stack {
+                      color: #d9272d;
+                      font-size: 17px;
+                      top: -3px;
+                  }
+              }
+
+              .flex-item-shop {
+                  white-space: nowrap;
+                  span {
+                      font-size: 19px;
+                      vertical-align: middle;
+                  }
+              }
+
+              .btn {
+                  display: inline-block;
+                  padding: 3px 15px 3px 5px;
+                  background: #d9272d;
+                  color: #fff;
+                  margin: 0 0 0 20px;
+                  border-radius: 5px;
+                  text-decoration: none;
+                  font-family: "nexa heavy";
+
+                  img {
+                      margin: 0;
+                      vertical-align: middle;
+                  }
+
+                  &:hover {
+                      opacity: .75;
+                      text-decoration: none !important;
+
+                      span {
+                          text-decoration: none !important;
+                      }
+                  }
+
+                  i.fa, em.fa {
+                      font-size: 20px;
+                      vertical-align: middle;
+                      margin-right: 5px;
+                      margin-left: 5px;
+                  }
+              }
+
+              img {
+                  top: 0;
+                  height: 40px;
+                  margin: 0 10px 0 30px
+              }
+
+          }
+
+      }
+
+      .mobile-only {
+        background: #fff;
+        color: #57585b;
+        display: block;
+        text-align: center;
+        height: 80px;
+        padding-top: 10px;
+
+        @media (min-width: 768px) {
+          display: none !important;
+        }
+
+        .click-or-call-copy {
+            padding: 0 15px;
+            margin: 0 0 15px 0;
+        }
+
+        .switchTodayCopy {
+            font-family: 'nexa heavy';
+            font-size: 20px;
+            color: #fff;
+            padding-right: 4px;
+
+            @media (max-width: 530px) {
+              display: none;
+            }
+        }
+
+        .ctaBtn {
+            color: #fff;
+            background-color: #d8262e;
+            font-size: 20px;
+            font-family: 'nexa heavy';
+            padding: 6px 14px 6px 10px;
+            border-radius: 10px;
+
+            img, i {
+              padding-right: 4px;
+              top: -2px;
+              position: relative;
+            }
+
+            i {
+              margin-top: -7px;
+              display: inline-block;
+              vertical-align: middle;
+            }
+        }
+
+        .ctaBtn+.ctaBtn, .ctaBtn+.cta-cart-link {
+          margin-left: 4px;
+        }
+
+      }
+
+  }
+
+
+}

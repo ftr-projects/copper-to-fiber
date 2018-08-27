@@ -1,0 +1,102 @@
+.res-iconbox-panel{
+    background-color: #fafafa;
+}
+
+
+.iconbox-panel .icon-box {
+    color: #333;
+    background-color: #fff;
+    font-family: "Nexa";
+    font-size: 20px;
+    font-style: normal;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .25);
+    transition: All .3s ease;
+    min-height: 200px;
+    padding-top: 25px;
+}
+
+    .iconbox-panel .icon-box a {
+        font-family: "Nexa";
+    }
+
+.iconbox-panel .icon-box .fa, .iconbox-panel .icon-box .fa-stack {
+    line-height: normal;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.iconbox-panel .icon-box a:hover {
+    text-decoration: underline;
+}
+
+.iconbox-panel .icon-box:hover {
+    cursor: pointer;
+}
+
+.icon-box-phone-link:hover {
+    text-decoration: none !important;
+    cursor: default !important;
+}
+
+.iconbox-panel .subtitle {
+    font-size: 18px;
+}
+
+.iconbox-panel .icon-box a {
+    color: #333;
+}
+
+    .iconbox-panel .icon-box a div.icon-wrapper {
+        line-height: initial;
+        padding-bottom: 10px;
+    }
+
+    .iconbox-panel .icon-box a div.complex-wrapper {
+        padding-left: 0px;
+    }
+
+.iconbox-panel .subtitle i {
+    color: #278189;
+    width: 32px;
+}
+
+.custom-icon {
+    /*font-size: 40px;*/
+    background: #666;
+    background: #d9272d;
+    padding: 30px;
+    -webkit-border-radius: 1100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-table;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.icon-increase-padding-3 {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.icon-increase-padding-5 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+@media only screen and (min-width: 768px) {
+  .iconbox-panel .icon-box:hover {
+        transform: scale(1.05);
+    }
+    .iconbox-panel .icon-box {
+      font-size: 25px;
+    }
+}

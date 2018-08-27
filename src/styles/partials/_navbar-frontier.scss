@@ -1,0 +1,26 @@
+nav {
+  &.navbar-frontier {
+    margin-bottom: 0 !important;
+    border-bottom: 3px solid #d9272d !important;
+    background-color: #FFF;
+
+    .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    li {
+       margin-top: 6px;
+       margin-bottom: 0 !important;
+       a {
+            font-family: "nexa bold";
+           font-size: 18px;
+       }
+
+     }
+  }
+}

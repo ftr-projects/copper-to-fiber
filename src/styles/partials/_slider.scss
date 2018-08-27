@@ -1,0 +1,63 @@
+.hero-slider {
+  position: relative;
+  visibility: hidden;
+
+  &.slick-initialized {
+    visibility: visible;
+  }
+
+  .slide {
+    height: 380px;
+  }
+
+  .sm {
+    h1 {
+      font-family: "nexa xbold";
+      font-size: 22px;
+      margin: 0;
+      @media only screen and (min-width: 768px) {
+          font-size: 28px;
+      }
+    }
+    h2 {
+      font-family: "nexa black";
+      font-size: 20px;
+      color: #d9272d;
+      @media only screen and (min-width: 768px) {
+        font-size: 24px;
+      }
+   }
+   h3 {
+      font-family: "nexa book";
+      font-size: 18px;
+      @media only screen and (min-width: 768px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+}
+
+.slick-slider {
+  margin-bottom: 0 !important;
+  &.slick-dotted {
+      margin-bottom: 0 !important;
+  }
+}
+
+
+.slick-dots {
+  bottom: 6px !important;
+  height: 20px;
+
+  li, li.slick-active {
+    button {
+      &:before {
+        color: #d9272d;
+        @media only screen and (min-width: 768px) {
+          font-size: 18px !important;
+        }
+      }
+    }
+  }
+}
